@@ -10,14 +10,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 282px;
+    padding-left: 282px;
 }
 
 .header-logo {
     align-self: center;
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header ul {
@@ -29,4 +30,54 @@ ul li{
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.intro {
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    background-color: #1f2937;
+    height: 200px;
+    width: 400px;
+
+}
+
+.text-container h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.text-container p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+.image-placeholder {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign-up {
+    background-color: rgb(12, 169, 231);
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    padding: 4px;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 4px;
 }
