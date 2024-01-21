@@ -144,3 +144,36 @@ ul li{
     margin-left: 480px;
     margin-top: 0;
 }
+
+.call {
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-box {
+    background-color: #3882f6;
+    height: 150px;
+    width: 900px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-box .sign-up {
+    border: 2px solid white;
+}
+
+.call-text h3 {
+    color: white;
+    margin: 0;
+}
+
+.call-text p {
+    color: #e5e7eb;
+    margin: 0;
+}
